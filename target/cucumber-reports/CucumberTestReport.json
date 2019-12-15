@@ -1,0 +1,304 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3514499300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on TekSchool page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 794539400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Test Environment link",
+            "match": {
+              "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6263600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should see Test Environment page",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 917774400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#Scenario: SDET2019AUG_SDET_003_Execution"
+              }
+            ],
+            "line": 10,
+            "name": "User click on my account menu on top of the page",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_my_account_menu_on_top_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 392943800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on login on my account menu",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_Login_on_myAccount_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195775800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter username \u0027teststudent@gmail.com\u0027 and password \u0027Tek@Test.com\u0027 in returning menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teststudent@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Tek@Test.com",
+                  "offset": 58
+                }
+              ],
+              "location": "TekSchoolScenariosStepDefinitions.user_enter_username_username_and_password_password_in_returning_menu(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763933400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on login button",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373272700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be logged in",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4094569000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "SDET_O9_Currency",
+        "description": "",
+        "id": "tek-school-scenarios3;sdet-o9-currency",
+        "after": [
+          {
+            "result": {
+              "duration": 652795700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User ckics on currensy tap on the lefy top of the page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "3 currensies are displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User can click on different currency",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "choosen currency is displayed under the products",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "user clicks on spesific pruduct",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should see the chosen currency is displayed on the product ditails page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User clicks on Add to Cart Button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "User sees the chesen currensy is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "User clicks on log out Button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User click on login on my account menu",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_Login_on_myAccount_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User enter username \u0027teststudent@gmail.com\u0027 and password \u0027Tek@Test.com\u0027 in returning menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teststudent@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Tek@Test.com",
+                  "offset": 58
+                }
+              ],
+              "location": "TekSchoolScenariosStepDefinitions.user_enter_username_username_and_password_password_in_returning_menu(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User click on login button",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "User see the same currency is saved",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@SDET_09"
+          }
+        ]
+      }
+    ],
+    "name": "Tek School Scenarios3",
+    "description": "",
+    "id": "tek-school-scenarios3",
+    "keyword": "Feature",
+    "uri": "Features/MyCases3.feature"
+  }
+]
